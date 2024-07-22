@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 15%;
+    background-color: #242475;
+}
+
+nav > div:nth-child(2) {
+    display: flex;
+    gap: 50px;
+}
+
+main > div {
+    height: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15%;
+}
+
+#hero-container {
+    background-color: #242475;
+}
+
+#hero-container > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#heading {
+    font-size: 4em;
+}
+
+#subheading {
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+
+#heading-button {
+    width: 8em;
+    padding: 0.8em 0.5em;
+    border-radius: 8px;
+    border: none;
+    background-color: blue;
+}
+
+#hero-text {
+    padding-right: 8em; 
+}
+
+#image-placeholder {
+    height: 70%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main > div:nth-child(2) {
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main > div:nth-child(2) > h1, .box > p {
+    color: black;
+}
+
+main > div:nth-child(2) > h1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+#box-container {
+    width: 70%;
+    display: flex;
+    flex: 2;
+}
+
+.box {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 1.2em; 
+}
+
+.box > div {
+    display: block;
+    height: 10em;
+    width: 10em;
+    border: 5px solid rgb(0, 191, 255);
+    border-radius: 15px;
+}
+
+.box > p {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1.2em;
+}
