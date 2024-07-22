@@ -107,3 +107,28 @@ main > div:nth-child(2) > h1 {
     margin-top: 1em;
     font-size: 1.2em;
 }
+
+main > div:nth-child(3) {
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+}
+
+main > div:nth-child(3) > p, main > div:nth-child(3) > span {
+    width: 70%;
+}
+
+main > div:nth-child(3) > p {
+    font-size: 3em;
+    font-weight: lighter;
+    font-style: italic;
+    color: rgb(82, 82, 82);
+}
+
+main > div:nth-child(3) > span {
+    color: black;
+    text-align: end;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-top: 1em;
+}
